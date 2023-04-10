@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Assignment 2 </title>
+    <link rel="stylesheet" href="exhibitions.css" />
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <!-- parent container for grid activation  -->
+    <div class="grid-container">
+        <!-- child container (with id attribute) logo  -->
+        <!-- contains image of logo with link to homepage  -->
+        <div id="logo">
+            <a href="index.html">
+                <img src="images/newlogo.png" alt="">
+            </a>
+        </div>
+        <!-- child container nav (with class attribute navbar)   -->
+        <!-- contains unordered list with links to html pages within the website  -->
+        <nav class="navbar">
+
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li><a href="artwork.html">Artwork</a></li>
+                <li><a href="exhibitions.html">Exhibitions</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!-- child container (with class attribute) heading1  -->
+        <!-- sectioned using header tag, contains the page h1 header  -->
+        <header class="heading1">
+            <h1>EXHIBITIONS</h1>
+        </header>
+
+        <!-- child container (with class attribute video)  -->
+        <!-- sectioned section tag to arrange general content within the document body  -->
+        <section class="video">
+            <h2>Munchmuseet, Oslo</h2>
+             <!-- copyright free video from https://www.shutterstock.com/  -->
+            <video width="520" height="340" controls>
+              <source src="video/MUNCHMUSEUM.webm" type="video/webm">     
+            Your browser does not support the video tag.
+            </video>
+            
+        </section>
+        <!-- child container (with class attribute table)  -->
+        <!-- sectioned section tag  -->
+        <section class="tablelist">
+            <!-- sectioned article tag to define independent, self-contained content -->
+            <article>
+                <h2>Past Exhibitions</h2>
+                
+                
+                <table>
+                    <tr>
+                        <th>Dates</th>
+                        <th>Exhibition</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <td>27 May – 4 Sept 2022</td>
+                        <td>Edvard Munch. Masterpieces from Bergen</td>
+                        <td>The Courtauld Gallery, London</td>
+                    </tr>
+                    <tr>
+                        <td>17 Jan – 14 Sept 2021</td>
+                        <td>Edvard Munch. Shadows</td>
+                        <td>Munchmuseet, Oslo</td>
+                    </tr>
+                    <tr>
+                        <td>22 Feb – 19 Nov 2020</td>
+                        <td>Edvard Munch. Prints</td>
+                        <td>National Gallery, London</td>
+                    </tr>
+                    <tr>
+                        <td>12 June – 19 Oct 2020</td>
+                        <td>Edvard Munch. Between the Clocks</td>
+                        <td>National Gallery of Ireland, Dublin</td>
+                    </tr>
+                    <tr>
+                        <td>20 Jan – 11 Nov 2019</td>
+                        <td>Edvard Munch. Portraits</td>
+                        <td>The Met Museum, New York</td>
+                    </tr>
+                    <tr>
+                        <td>15 Sept – 19 Dec 2019</td>
+                        <td>Edvard Munch. Cruelty</td>
+                        <td>Art Institute of Chicago</td>
+                    </tr>
+
+                </table>
+
+            </article>
+
+        </section>
+
+
+        <!-- child container (class attribute copyright)  -->
+        <!-- sectioned footer tag to display footer of the webpage -->
+        <!-- contains copyright paragraph -->
+        <footer class="copyright">
+            <p>© 2022 Apparent Art</p>
+        </footer>
+        <!-- child container (class attribute search)  -->
+        <!-- sectioned footer tag to display footer of the webpage -->
+        <!-- contains searchbox -->
+        <footer class="search">
+
+            <p>Find Artist: </p>
+            <input type="text" placeholder="Search..">
+        </footer>
+        <!-- child container (class attribute media)  -->
+        <!-- sectioned footer tag to display footer of the webpage -->
+        <!-- contains media icon library (font awsome) -->
+        <footer class="media">
+
+            <!-- font awsome link -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- Add font awesome icons -->
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+
+        </footer>
+
+
+
+    </div>
+
+</body>
+
+</html>
